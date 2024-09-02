@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 import { ErrorMessage } from 'formik';
 import { useId } from 'react';
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contactsAPI';
+import { addContact } from '../../redux/contactsOps';
 
 const ContactForm = () => {
   const dispatch = useDispatch();
